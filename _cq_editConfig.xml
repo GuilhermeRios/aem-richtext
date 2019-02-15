@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:EditConfig">
+    <cq:inplaceEditing
+        jcr:primaryType="cq:InplaceEditingConfig"
+        active="{Boolean}true"
+        editorType="text">
+        <config jcr:primaryType="nt:unstructured">
+            <uiSettings jcr:primaryType="nt:unstructured">
+                <cui jcr:primaryType="nt:unstructured">
+                    <inline
+                        jcr:primaryType="nt:unstructured"
+                        toolbar="[format#bold,format#italic,format#underline,#justify,#lists,links#modifylink,links#unlink,#paraformat,control#close,control#save]"/>
+                </cui>
+            </uiSettings>
+        </config>
+    </cq:inplaceEditing>
+</jcr:root>
